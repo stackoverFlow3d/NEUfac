@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="562.0" prefWidth="876.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.equipment.EquipmentManager">
+   <children>
+      <Button fx:id="newButtomn" layoutX="329.0" layoutY="63.0" mnemonicParsing="false" onAction="#newEquip" prefHeight="36.0" prefWidth="100.0" text="新建" />
+      <Button fx:id="deletButton" layoutX="610.0" layoutY="63.0" mnemonicParsing="false" onAction="#delEquip" prefHeight="36.0" prefWidth="100.0" text="删除" />
+      <Button fx:id="controlButton" layoutX="752.0" layoutY="63.0" mnemonicParsing="false" onAction="#DIstanceControll" prefHeight="36.0" prefWidth="100.0" text="远程操作" />
+      <TableView fx:id="table" layoutX="27.0" layoutY="155.0" prefHeight="388.0" prefWidth="825.0">
+        <columns>
+          <TableColumn fx:id="idLine" prefWidth="44.0" text="ID" />
+            <TableColumn fx:id="nameLine" prefWidth="88.0" text="设备名称" />
+            <TableColumn fx:id="numberLine" prefWidth="109.0" text="设备编号" />
+            <TableColumn fx:id="typeLine" prefWidth="96.0" text="设备类别" />
+            <TableColumn fx:id="sizeLIne" prefWidth="99.0" text="设备规格" />
+            <TableColumn fx:id="statuLine" prefWidth="99.0" text="设备状态" />
+            <TableColumn fx:id="descripLine" prefWidth="102.0" text="设备描述" />
+            <TableColumn fx:id="browwerLine" prefWidth="86.0" text="租用状态" />
+            <TableColumn fx:id="facLine" prefWidth="101.0" text="所属工厂" />
+        </columns>
+      </TableView>
+      <Label layoutX="27.0" layoutY="22.0" text="请输入设备名称" />
+      <TextField fx:id="checkText" layoutX="27.0" layoutY="55.0" prefHeight="44.0" prefWidth="242.0" />
+      <Button fx:id="checkButton" layoutX="27.0" layoutY="107.0" mnemonicParsing="false" onAction="#check" text="查询" />
+      <Button fx:id="replaceButton" layoutX="209.0" layoutY="107.0" mnemonicParsing="false" onAction="#replace" text="重置" />
+      <Button fx:id="modifyButtomn" layoutX="467.0" layoutY="63.0" mnemonicParsing="false" onAction="#modifyEquip" prefHeight="36.0" prefWidth="100.0" text="修改" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,4 @@
+{"discription":"游戏开发，生产游戏外设","facName":"奇迹再现游戏公司","id":"1","name":"秦晨","passWord":"1111","phone":"13155168028","power":"云工厂","state":"关停","userName":"1111"}
+{"discription":"","facName":"","id":"2","name":"狐狸","passWord":"2222","phone":"17263829384","power":"经销商","state":"关停","userName":"2222"}
+{"discription":"互联网公司","facName":"QQ","id":"3","name":"麻花疼","passWord":"3333","phone":"17283746537","power":"云工厂","state":"关停","userName":"3333"}
+{"discription":"222","facName":"222","id":"4","name":"2","passWord":"4444","phone":"22222222222","power":"云工厂","state":"关停","userName":"4444"}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="845.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.human.Register">
+   <children>
+      <Label layoutX="169.0" layoutY="46.0" prefHeight="68.0" prefWidth="262.0" text="   用户注册" textAlignment="CENTER">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="64.0" layoutY="174.0" prefHeight="39.0" prefWidth="88.0" text="登录账号" />
+      <Label layoutX="64.0" layoutY="257.0" prefHeight="39.0" prefWidth="88.0" text="登录密码" />
+      <Label layoutX="64.0" layoutY="341.0" prefHeight="39.0" prefWidth="88.0" text="真实姓名" />
+      <Label layoutX="64.0" layoutY="423.0" prefHeight="39.0" prefWidth="88.0" text="联系方式" />
+      <Label layoutX="64.0" layoutY="574.0" prefHeight="39.0" prefWidth="88.0" text="公司名称" />
+      <Button fx:id="confromButtonButton" layoutX="145.0" layoutY="751.0" mnemonicParsing="false" onAction="#conform" prefHeight="48.0" prefWidth="79.0" text="确定" />
+      <Button fx:id="cancelButtton" layoutX="376.0" layoutY="751.0" mnemonicParsing="false" onAction="#back" prefHeight="48.0" prefWidth="72.0" text="取消" />
+      <RadioButton fx:id="rbb" layoutX="375.0" layoutY="506.0" mnemonicParsing="false" text="经销商" />
+      <RadioButton fx:id="rbf" layoutX="207.0" layoutY="506.0" mnemonicParsing="false" text="云工厂" />
+      <Label layoutX="64.0" layoutY="506.0" text="注册类型" />
+      <TextField fx:id="id_text" layoutX="207.0" layoutY="176.0" prefHeight="36.0" prefWidth="321.0" />
+      <TextField fx:id="password_text" layoutX="207.0" layoutY="259.0" prefHeight="36.0" prefWidth="321.0" />
+      <TextField fx:id="name_text" layoutX="207.0" layoutY="343.0" prefHeight="36.0" prefWidth="321.0" />
+      <TextField fx:id="phone_text" layoutX="207.0" layoutY="425.0" prefHeight="36.0" prefWidth="321.0" />
+      <TextField fx:id="facNam_text" layoutX="207.0" layoutY="575.0" prefHeight="36.0" prefWidth="321.0" />
+      <Label layoutX="64.0" layoutY="663.0" prefHeight="39.0" prefWidth="88.0" text="公司描述" />
+      <TextField fx:id="description_text" layoutX="207.0" layoutY="664.0" prefHeight="36.0" prefWidth="321.0" />
+   </children>
+</AnchorPane>

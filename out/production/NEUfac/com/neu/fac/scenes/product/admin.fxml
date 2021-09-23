@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.human.Admin">
+   <children>
+      <Button fx:id="userMangeButton" layoutX="88.0" layoutY="90.0" mnemonicParsing="false" onAction="#userMange" prefHeight="35.0" prefWidth="162.0" text="用户管理" />
+      <Button fx:id="facMesButton" layoutX="326.0" layoutY="90.0" mnemonicParsing="false" onAction="#facMes" prefHeight="35.0" prefWidth="162.0" text="云工厂信息" />
+      <Button fx:id="proTypeButton" layoutX="88.0" layoutY="183.0" mnemonicParsing="false" onAction="#proType" prefHeight="35.0" prefWidth="162.0" text="产品类别管理" />
+      <Button fx:id="proMesButton" layoutX="326.0" layoutY="183.0" mnemonicParsing="false" onAction="#proMes" prefHeight="35.0" prefWidth="162.0" text="产品信息管理" />
+      <Button fx:id="euipTypeButton" layoutX="88.0" layoutY="275.0" mnemonicParsing="false" onAction="#euipType" prefHeight="35.0" prefWidth="162.0" text="设备类型管理" />
+      <Button fx:id="euipMangeButton" layoutX="326.0" layoutY="275.0" mnemonicParsing="false" onAction="#euipMange" prefHeight="35.0" prefWidth="162.0" text="设备管理" />
+   </children>
+</AnchorPane>

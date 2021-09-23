@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="707.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.facManager.AddProduct">
+   <children>
+      <Label layoutX="26.0" layoutY="33.0" text="设备编号" />
+      <TextField fx:id="numbetText" editable="false" layoutX="98.0" layoutY="27.0" prefHeight="24.0" prefWidth="192.0" />
+      <Label layoutX="312.0" layoutY="33.0" text="设备名称" />
+      <TextField fx:id="nameText" editable="false" layoutX="384.0" layoutY="27.0" prefHeight="24.0" prefWidth="192.0" />
+      <Button fx:id="newButton" layoutX="471.0" layoutY="152.0" mnemonicParsing="false" onAction="#AddProduct" text="添加产品" />
+      <TableView fx:id="table" layoutX="23.0" layoutY="208.0" prefHeight="433.0" prefWidth="555.0">
+        <columns>
+          <TableColumn fx:id="nameLine" prefWidth="277.0" text="产品名称" />
+          <TableColumn fx:id="powerLine" prefWidth="277.0" text="产品产能（件/小时）" />
+        </columns>
+      </TableView>
+      <ChoiceBox fx:id="choiceBox" layoutX="98.0" layoutY="88.0" prefHeight="36.0" prefWidth="192.0" />
+      <Label layoutX="23.0" layoutY="94.0" text="选择产品" />
+      <Label layoutX="312.0" layoutY="94.0" text="设置产能" />
+      <TextField fx:id="energyText" layoutX="384.0" layoutY="88.0" prefHeight="36.0" prefWidth="192.0" />
+      <Button fx:id="removeButton" layoutX="480.0" layoutY="657.0" mnemonicParsing="false" onAction="#remove" text="删除产品" />
+   </children>
+</AnchorPane>

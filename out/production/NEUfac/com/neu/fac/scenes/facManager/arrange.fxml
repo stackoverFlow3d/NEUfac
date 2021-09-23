@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="758.0" prefWidth="532.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.facManager.ArrangeWork">
+   <children>
+      <TableView fx:id="table" layoutX="24.0" layoutY="246.0" prefHeight="429.0" prefWidth="471.0">
+        <columns>
+          <TableColumn fx:id="nameLine" prefWidth="127.0" text="设备名称" />
+          <TableColumn fx:id="aLine" prefWidth="169.0" text="开始时间" />
+            <TableColumn fx:id="fLine" prefWidth="174.0" text="结束时间" />
+        </columns>
+      </TableView>
+      <Button layoutX="339.0" layoutY="200.0" mnemonicParsing="false" onAction="#addE" text="添加设备" />
+      <Button layoutX="392.0" layoutY="694.0" mnemonicParsing="false" onAction="#delE" text="删除设备" />
+      <ChoiceBox fx:id="eName" layoutX="143.0" layoutY="30.0" prefHeight="36.0" prefWidth="292.0" />
+      <Label layoutX="28.0" layoutY="153.0" text="截止日期" />
+      <Label layoutX="28.0" layoutY="36.0" text="设备名称" />
+      <Label layoutX="28.0" layoutY="95.0" text="开始日期" />
+      <DatePicker fx:id="aDate" layoutX="144.0" layoutY="89.0" prefHeight="36.0" prefWidth="292.0" />
+      <DatePicker fx:id="fDate" layoutX="143.0" layoutY="147.0" prefHeight="36.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

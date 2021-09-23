@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.human.UserManger">
+   <children>
+      <TextField fx:id="checkText" layoutX="66.0" layoutY="44.0" prefHeight="23.0" prefWidth="143.0" />
+      <Button fx:id="checkButton" layoutX="260.0" layoutY="44.0" mnemonicParsing="false" onAction="#check" text="查询" />
+      <Button fx:id="replaceButton" layoutX="315.0" layoutY="44.0" mnemonicParsing="false" onAction="#replace" text="重置" />
+      <Label layoutX="30.0" layoutY="44.0" prefHeight="23.0" prefWidth="36.0" text="姓名" />
+      <Button fx:id="newButton" layoutX="30.0" layoutY="110.0" mnemonicParsing="false" onAction="#newLine" prefHeight="23.0" prefWidth="65.0" text="新建" />
+      <Button fx:id="delButton" layoutX="125.0" layoutY="110.0" mnemonicParsing="false" onAction="#delLine" prefHeight="23.0" prefWidth="65.0" text="删除" />
+      <Button fx:id="fixButton" layoutX="502.0" layoutY="110.0" mnemonicParsing="false" onAction="#fixLine" prefHeight="23.0" prefWidth="65.0" text="修改" />
+      <TableView fx:id="table" layoutX="25.0" layoutY="155.0" prefHeight="228.0" prefWidth="556.0">
+        <columns>
+          <TableColumn fx:id="checkLine" prefWidth="75.0" />
+          <TableColumn fx:id="idLine" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="userNameLine" prefWidth="101.0" text="登陆账号" />
+            <TableColumn fx:id="nameLine" prefWidth="118.0" text="姓名" />
+            <TableColumn fx:id="phoneLine" prefWidth="94.0" text="联系方式" />
+            <TableColumn fx:id="roleLine" prefWidth="92.0" text="角色名称" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

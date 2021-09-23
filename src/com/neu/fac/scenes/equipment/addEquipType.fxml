@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="205.0" prefWidth="407.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.equipment.AddEquipType">
+   <children>
+      <Label layoutX="26.0" layoutY="70.0" prefHeight="30.0" prefWidth="81.0" text="类型名称" />
+      <TextField fx:id="typrText" layoutX="118.0" layoutY="67.0" prefHeight="36.0" prefWidth="269.0" />
+      <Button fx:id="okk" layoutX="128.0" layoutY="146.0" mnemonicParsing="false" onAction="#yes" prefHeight="36.0" prefWidth="60.0" text="确认" />
+      <Button fx:id="noo" layoutX="249.0" layoutY="146.0" mnemonicParsing="false" onAction="#returnBack" prefHeight="36.0" prefWidth="60.0" text="取消" />
+   </children>
+</AnchorPane>

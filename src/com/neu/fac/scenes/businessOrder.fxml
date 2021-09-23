@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="1225.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.BusinessOrder">
+   <children>
+      <Button fx:id="newButton" layoutX="31.0" layoutY="41.0" mnemonicParsing="false" onAction="#addOrder" text="新建" />
+      <Button fx:id="modifyButton" layoutX="116.0" layoutY="41.0" mnemonicParsing="false" onAction="#modify" text="修改" />
+      <Button fx:id="delButton" layoutX="214.0" layoutY="41.0" mnemonicParsing="false" onAction="#delOrder" prefHeight="36.0" prefWidth="60.0" text="删除" />
+      <Button fx:id="releaseButton" layoutX="307.0" layoutY="41.0" mnemonicParsing="false" onAction="#releaseOrder" prefHeight="36.0" prefWidth="60.0" text="发布" />
+      <TableView fx:id="table" layoutX="21.0" layoutY="109.0" prefHeight="359.0" prefWidth="1184.0">
+        <columns>
+          <TableColumn fx:id="idLine" prefWidth="75.0" text="序号" />
+          <TableColumn fx:id="numLine" prefWidth="104.0" text="订单编号" />
+            <TableColumn fx:id="nameLine" prefWidth="97.0" text="产品名称" />
+            <TableColumn fx:id="amountLine" prefWidth="110.0" text="订购数量" />
+            <TableColumn fx:id="finsishLine" prefWidth="158.0" text="交付日期" />
+            <TableColumn fx:id="deadLine" prefWidth="154.0" text="投标截止日期" />
+            <TableColumn fx:id="accLine" prefWidth="98.0" text="收货人" />
+            <TableColumn fx:id="phoneLine" prefWidth="148.0" text="收货人联系方式" />
+            <TableColumn fx:id="adressLine" prefWidth="136.0" text="收货地址" />
+            <TableColumn fx:id="statusLine" prefWidth="102.0" text="订单状态" />
+        </columns>
+      </TableView>
+      <Button fx:id="detailButton" layoutX="1098.0" layoutY="41.0" mnemonicParsing="false" onAction="#detail" text="投标详情" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="452.0" prefWidth="388.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.product.ModifyProduct">
+   <children>
+      <Label layoutX="34.0" layoutY="61.0" prefHeight="34.0" prefWidth="87.0" text="产品名称" />
+      <Label layoutX="34.0" layoutY="143.0" prefHeight="34.0" prefWidth="87.0" text="产品规格" />
+      <Label layoutX="34.0" layoutY="223.0" prefHeight="34.0" prefWidth="87.0" text="产品描述" />
+      <Label layoutX="34.0" layoutY="302.0" prefHeight="34.0" prefWidth="87.0" text="产品类别" />
+      <TextField fx:id="nameText" layoutX="129.0" layoutY="60.0" prefHeight="36.0" prefWidth="225.0" />
+      <TextField fx:id="sizeText" layoutX="129.0" layoutY="142.0" prefHeight="36.0" prefWidth="225.0" />
+      <TextField fx:id="desText" layoutX="129.0" layoutY="222.0" prefHeight="36.0" prefWidth="225.0" />
+      <Button fx:id="comfrimButtom" layoutX="61.0" layoutY="380.0" mnemonicParsing="false" onAction="#comfrim" text="确定" />
+      <Button fx:id="cancelbutton" layoutX="248.0" layoutY="380.0" mnemonicParsing="false" onAction="#cancel" text="取消" />
+      <ChoiceBox fx:id="typeChoice" layoutX="129.0" layoutY="301.0" prefHeight="36.0" prefWidth="225.0" />
+   </children>
+</AnchorPane>

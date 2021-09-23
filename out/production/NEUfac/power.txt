@@ -1,0 +1,3 @@
+{"equipNun":"FSN2837421002","power":"1","producrName":"ps5"}
+{"equipNun":"FSN2837421002","power":"2","producrName":"美国末日2"}
+{"equipNun":"FSN2837421002","power":"10","producrName":"纸片马里奥"}

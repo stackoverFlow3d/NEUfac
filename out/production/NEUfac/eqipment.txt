@@ -1,0 +1,5 @@
+{"currentFac":"平台设备","description":"高性能渲染机","euipmentStatus":"闲置中","factory":"平台设备","id":"1","leaseStatus":"未租用","name":"装哥牌渲染机","number":"FSN2837421001","size":"大","type":"电脑"}
+{"currentFac":"奇迹再现游戏公司","description":"大容量固态硬盘","euipmentStatus":"闲置中","factory":"奇迹再现游戏公司","id":"2","leaseStatus":"工厂设备","name":"固态硬盘","number":"FSN2837421002","size":"1000T","type":"硬盘"}
+{"currentFac":"平台设备","description":"公用打印机","euipmentStatus":"闲置中","factory":"平台设备","id":"3","leaseStatus":"未租用","name":"hp打印机","number":"FSN2837421003","size":"22","type":"打印机"}
+{"currentFac":"奇迹再现游戏公司","description":"高性能电脑","euipmentStatus":"闲置中","factory":"奇迹再现游戏公司","id":"4","leaseStatus":"工厂设备","name":"游戏测试电脑","number":"FSN2837421004","size":"17ich","type":"电脑"}
+{"currentFac":"QQ","description":"开发用的电脑","euipmentStatus":"闲置中","factory":"QQ","id":"5","leaseStatus":"工厂设备","name":"开发电脑","number":"FSN2837421005","size":"22","type":"电脑"}

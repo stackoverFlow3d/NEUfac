@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="593.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.neu.fac.view.product.ProductManager">
+   <children>
+      <TableView fx:id="table" layoutX="29.0" layoutY="154.0" prefHeight="302.0" prefWidth="549.0">
+        <columns>
+          <TableColumn fx:id="idLine" prefWidth="53.0" text="序号" />
+            <TableColumn fx:id="namberLine" prefWidth="90.0" text="产品编号" />
+            <TableColumn fx:id="nameLine" prefWidth="90.0" text="产品名称" />
+            <TableColumn fx:id="typeLine" prefWidth="92.0" text="产品类别" />
+            <TableColumn fx:id="sizeLine" prefWidth="94.0" text="产品规格" />
+            <TableColumn fx:id="desLine" prefWidth="129.0" text="产品描述" />
+        </columns>
+      </TableView>
+      <TextField fx:id="typeText" layoutX="32.0" layoutY="50.0" prefHeight="36.0" prefWidth="211.0" />
+      <Label layoutX="32.0" layoutY="26.0" prefHeight="24.0" prefWidth="159.0" text="请输入产品名称：" />
+      <Button fx:id="chexkButton" layoutX="274.0" layoutY="50.0" mnemonicParsing="false" onAction="#check" prefHeight="36.0" prefWidth="60.0" text="查询" />
+      <Button fx:id="replaceButton" layoutX="364.0" layoutY="50.0" mnemonicParsing="false" onAction="#replace" prefHeight="36.0" prefWidth="60.0" text="重置" />
+      <Button fx:id="newButton" layoutX="29.0" layoutY="103.0" mnemonicParsing="false" onAction="#newPro" text="新建" />
+      <Button fx:id="modfiyButton" layoutX="108.0" layoutY="103.0" mnemonicParsing="false" onAction="#modifyPro" text="修改" />
+      <Button fx:id="deletButton" layoutX="188.0" layoutY="103.0" mnemonicParsing="false" onAction="#deletPro" text="删除" />
+   </children>
+</AnchorPane>
